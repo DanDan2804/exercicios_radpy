@@ -7,3 +7,11 @@ print(len(texto))
 print(texto.count("a"))
 
 print(texto.count("a", 5, 30))
+
+print(texto.find("aula"))
+
+print(texto.find("Python"))
+
+print('String' in texto)
+
+print('Raphael' in texto)
