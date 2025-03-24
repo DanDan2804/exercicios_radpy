@@ -23,3 +23,6 @@ print('String' in texto)
 
 print('Raphael' in texto)
 '''Caso não esteja, dará o resultado False'''
+
+print(texto.split())
+'''Separa o texto por cada palavra'''
