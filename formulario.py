@@ -3,10 +3,10 @@ import re
 def validar_email(email):
     padrao = r'^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$'
 
-if re.match(padrao, email):
-    return True
-else:
-    return False
+    if re.match(padrao, email):
+        return True
+    else:
+        return False
 
 exemplos_emails = ["usuario@email.com", "outro@email.co.uk", "invalido@.com", "sem_arroba.com"]
 
